@@ -5,7 +5,7 @@ email: kautenja@auburn.edu
 avatar: img/avatar.jpg
 github: Kautenja
 linkedin: https://www.linkedin.com/in/kautenja/
-cv: publications/cv.pdf
+cv: doc/cv.pdf
 open_source_projects:
   - name: Pyramid Pooling Module (Implementation)
     description: |
@@ -89,8 +89,8 @@ publications:
       alerts to the passenger. Alerts are both: (1) shown to the passenger
       using an addressable LED strip around the windshield, and (2) delivered
       to the passenger through a speaker.
-    bib: pubs/pa-av-prototype.bib
-    pdf: pubs/pa-av-prototype.pdf
+    bib: doc/pa-av-prototype.bib
+    pdf: doc/pa-av-prototype.pdf
   - title: "REDUX: Managing Renewable Energy in Data Centers using Distributed UPS Systems"
     authors: Xiaopu Peng, Christian Kauten, Thomas Heckwolf, Chaowei Zhang, Jianzhou Mao and Xiao Qin
     year: 2018
@@ -110,5 +110,5 @@ publications:
       improving power resource utilization. Compared with existing strategies,
       REDUX demonstrates a prominent capability of mitigating average peak
       workload and boosting renewable-energy utilization.
-    bib: pubs/redux.bib
-    pdf: pubs/redux.pdf
+    bib: doc/redux.bib
+    pdf: doc/redux.pdf
