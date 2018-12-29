@@ -1,11 +1,9 @@
-sudo:          false
-language:      node_js
-node_js:
-  - "node"
-install:       npm install
+---
+os: linux
+language: python
+python:
+  - "3.6"
 script:
-  - npm test
-  - gulp
-cache:
-  directories:
-    - node_modules
+  - python compile.py
+notifications:
+  email: false
