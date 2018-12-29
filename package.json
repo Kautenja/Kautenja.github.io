@@ -1,0 +1,26 @@
+{
+    "title": "Christian Kauten Portfolio",
+    "name": "christian-kauten-portfolio",
+    "version": "1.0.0",
+    "description": "Christian Kauten's Software Engineering Portfolio.",
+    "keywords": [
+        "portfolio",
+        "resume",
+        "cv",
+    ],
+    "homepage": "https://kautenja.github.io/portfolio/index.html",
+    "bugs": {
+        "url": "https://github.com/Kautenja/portfolio/issues",
+        "email": "kautencreations@gmail.com"
+    },
+    "license": "MIT",
+    "author": "Christian Kauten",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kautenja/portfolio.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.1.1",
+        "jquery": "3.3.1"
+    }
+}

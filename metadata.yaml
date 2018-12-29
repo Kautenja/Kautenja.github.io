@@ -1,0 +1,114 @@
+---
+name: Christian Kauten
+tagline: Very good software engineer.
+email: kautenja@auburn.edu
+avatar: img/avatar.jpg
+github: Kautenja
+linkedin: https://www.linkedin.com/in/kautenja/
+cv: publications/cv.pdf
+open_source_projects:
+  - name: Pyramid Pooling Module (Implementation)
+    description: |
+      A Keras implementation of the <i>Pyramid Pooling Module</i> used in the
+      <a href="https://hszhao.github.io/projects/pspnet/">PSPNet</a>
+      architecture.
+    url: https://github.com/Kautenja/keras-pyramid-pooling-module
+    img: img/ppm.png
+  - name: Very Good Semantic Segmentation Labeling App
+    description: |
+      A python application for labeling semantic segmentation datasets. The app
+      features superpixels, custom label mapping support, and loading existing
+      segmentations.
+    url: https://github.com/Kautenja/semantic-segmentation-labeling-app
+    img: img/vgssla.jpg
+  - name: Semantic Segmentation Baselines
+    description: |
+      Implementations of neural semantic segmentation models in Python using
+      Keras and TensorFlow. Implemented models include:
+      <ul>
+        <li>ENet</li>
+        <li>ICNet</li>
+        <li>SegNet</li>
+        <li>Tiramisu</li>
+      </ul>
+      Datasets include:
+      <ul>
+        <li>CamVid</li>
+        <li>City Scapes</li>
+        <li>Berkeley Diverse Driving</li>
+        <li>Mapillary</li>
+      </ul>
+    url: https://github.com/Kautenja/semantic-segmentation-baselines
+    img: img/nss.png
+  - name: Gym Super Mario Bros.
+    description: |
+      An Open.ai Gym environment for the classic Nintendo Entertainment System
+      (NES) game, Super Mario Bros., based on the
+      <a href="https://github.com/Kautenja/nes-py">NESpy</a> emulator.
+    url: https://github.com/Kautenja/gym-super-mario-bros
+    img: img/smb.jpg
+  - name: NESpy
+    description: |
+      A Nintendo Entertainment System (NES) emulator for Python based on the
+      <a href="https://github.com/AndreaOrru/LaiNES">LaiNES</a> emulator written
+      in C++.
+    url: https://github.com/Kautenja/nes-py
+    img: img/nes-py.png
+  - name: Playing Super Mario Bros. with Deep Reinforcement Learning
+    description: |
+      An implementation of Dueling, Double, Deep Q learning to play Super Mario
+      Bros. with high proficiency. Built using
+      <a href="https://github.com/Kautenja/gym-super-mario-bros">Gym Super
+      Mario Bros.</a>
+    url: https://github.com/Kautenja/playing-mario-with-deep-reinforcement-learning
+    vid: img/DDQN-SMB-1-4.mp4
+  - name: A Neural Algorithm of Artistic Style (Implementation)
+    description: |
+      An implementation of the paper
+      <i><a href="https://arxiv.org/abs/1508.06576">A Neural Algorithm of
+      Artistic Style</a></i> in Python using Keras and TensorFlow. Includes
+      modules for content reconstruction, content layer selection, style
+      reconstruction, style layer selection, style transfer, and photo-realistic
+      style transfer.
+    url: https://github.com/Kautenja/a-neural-algorithm-of-artistic-style
+    img: img/anaoas.jpg
+publications:
+  - title: A Perception Augmentation System for Autonomous Vehicles
+    authors: Christian Kauten, Ashish Gupta, Xiao Qin, Han Li, David Bevly and Alison Jenkins
+    year: 2018
+    venue: Pre-ICIS SIGDSA Symposium
+    description: |
+      We describe a system prototype for perception augmentation in autonomous
+      vehicles. The system is built using a fully convolutional deep
+      encoder-decoder architecture to map pixels with depth measures to
+      semantic class labels. Class labels recombine with depth measures to
+      produce a 3-dimensional semantic map of the objects in front of the
+      vehicle. The map, simplified to highlight areas of importance (e.g.,
+      other vehicles, pedestrians), is shown to the passenger using a novel
+      user interface. The map is also analyzed for potential risks to queue
+      alerts to the passenger. Alerts are both: (1) shown to the passenger
+      using an addressable LED strip around the windshield, and (2) delivered
+      to the passenger through a speaker.
+    bib: pubs/pa-av-prototype.bib
+    pdf: pubs/pa-av-prototype.pdf
+  - title: "REDUX: Managing Renewable Energy in Data Centers using Distributed UPS Systems"
+    authors: Xiaopu Peng, Christian Kauten, Thomas Heckwolf, Chaowei Zhang, Jianzhou Mao and Xiao Qin
+    year: 2018
+    venue: IEEE International Conference on Smart Cloud
+    description: |
+      To environmental friendly and energy-efficient data centers, it is
+      prudent to leverage on-site renewable sources like solar and wind.
+      Distributed UPS systems are deployed in data centers to handle the
+      intermittency feature of renewable energy. We propose a renewable-energy
+      manager called REDUX, which offers a smart way of managing server energy
+      consumption powered by a distributed UPS system and renewable energy.
+      REDUX maintains a desirable balance between renewable-energy utilization
+      and data center performance. REDUX makes judicious use of UPS devices to
+      allocate energy resources when renewable energy generation is low or
+      fluctuating condition. REDUX not only guarantees the stable operation of
+      daily workload but also reduces the energy cost of data centers by
+      improving power resource utilization. Compared with existing strategies,
+      REDUX demonstrates a prominent capability of mitigating average peak
+      workload and boosting renewable-energy utilization.
+    bib: pubs/redux.bib
+    pdf: pubs/redux.pdf
