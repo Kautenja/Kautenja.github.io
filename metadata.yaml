@@ -50,8 +50,8 @@ open_source_projects:
   - name: NESpy
     description: |
       A Nintendo Entertainment System (NES) emulator for Python based on the
-      <a href="https://github.com/AndreaOrru/LaiNES">LaiNES</a> emulator written
-      in C++.
+      <a href="https://github.com/amhndu/SimpleNES">SimpleNES</a> emulator
+      written in C++.
     url: https://github.com/Kautenja/nes-py
     img: img/nes-py.png
   - name: Playing Super Mario Bros. with Deep Reinforcement Learning
