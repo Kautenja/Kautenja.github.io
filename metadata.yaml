@@ -7,6 +7,13 @@ github: Kautenja
 linkedin: https://www.linkedin.com/in/kautenja/
 cv: doc/cv.pdf
 open_source_projects:
+  - name: Gym Zelda 1
+    description: |
+      An Open.ai Gym environment for the classic Nintendo Entertainment System
+      (NES) game, The Legend of Zelda (aka Zelda 1)., based on the
+      <a href="https://github.com/Kautenja/nes-py">NESpy</a> emulator.
+    url: https://github.com/Kautenja/gym-zelda-1
+    img: img/zelda1.png
   - name: Pyramid Pooling Module (Implementation)
     description: |
       A Keras implementation of the <i>Pyramid Pooling Module</i> used in the
