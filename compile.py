@@ -6,10 +6,12 @@ DEFAULTS = {
     'cv': '#',
     'tagline': 'Tagline',
     'avatar': 'http://placehold.it/700x300',
-    'email': 'Email',
-    'linkedin': 'https://linkedin.com',
     'name': 'Name',
-    'github': 'Github',
+    'email': 'Email',
+    'linkedin': '',
+    'github': '',
+    'researchgate': '',
+    'pypi': '',
 }
 
 
@@ -179,6 +181,9 @@ def write_file(basename: str, transform: 'Callable') -> None:
         html = transform(html)
         # replace the metadata in the file
         html = html.replace('$$name$$', METADATA.get('name', DEFAULTS['name']))
+        html = html.replace('$$github$$', METADATA.get('github', DEFAULTS['github']))
+        html = html.replace('$$researchgate$$', METADATA.get('researchgate', DEFAULTS['researchgate']))
+        html = html.replace('$$pypi$$', METADATA.get('pypi', DEFAULTS['pypi']))
         html = html.replace('$$github$$', METADATA.get('github', DEFAULTS['github']))
         html = html.replace('$$avatar$$', METADATA.get('avatar', DEFAULTS['avatar']))
         html = html.replace('$$email$$', METADATA.get('email', DEFAULTS['email']))
