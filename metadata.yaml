@@ -2,9 +2,11 @@
 name: Christian Kauten
 tagline: Very good software engineer.
 email: kautenja@auburn.edu
-avatar: img/avatar.jpg
+avatar: img/avatar.png
 github: Kautenja
-linkedin: https://www.linkedin.com/in/kautenja/
+linkedin: kautenja
+researchgate: Christian_Kauten
+pypi: kautenja
 cv: doc/cv.pdf
 open_source_projects:
   - name: NES iOS
