@@ -8,6 +8,12 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: Robust Graph Convolutional Networks Against Adversarial Attacks (Implementation)
+    description: |
+      A Keras implementation of the <i>Robust Graph Convolutional Network</i>,
+      i.e., the Gaussian Graph Convolutional Layer with attention mechanism.
+    url: https://github.com/Kautenja/robust-graph-convolutional-networks-against-adversarial-attacks-implementation
+    img: img/ggcn.png
   - name: NES iOS
     description: |
       An NES emulator for iOS based on the C++ back-end from the
