@@ -14,6 +14,18 @@ open_source_projects:
       i.e., the Gaussian Graph Convolutional Layer with attention mechanism.
     url: https://github.com/Kautenja/robust-graph-convolutional-networks-against-adversarial-attacks-implementation
     img: img/ggcn.png
+  - name: C++ Object Pool Template
+    description: |
+      A C++ header-only template implementation of the object pool pattern for
+      object reuse. The implmentation is tested and benchmarked using
+      <a href="https://github.com/catchorg/Catch2">Catch2</a>.
+      </br>
+      <i>
+      image courtesy of
+      <a href="https://twitter.com/mikegeig/status/453239221885480960">Mike Geig</a>
+      </i>
+    url: https://github.com/Kautenja/object-pool
+    img: img/object-pool.png
   - name: NES iOS
     description: |
       An NES emulator for iOS based on the C++ back-end from the
