@@ -8,6 +8,13 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: Limit Order Book
+    description: |
+      An C++ implementation of the limit order book for following an order depth
+      data feed from a financial markets. A Python API is also provided using
+      CTypes.
+    url: https://github.com/Kautenja/limit-order-book
+    img: img/lob.jpg
   - name: Robust Graph Convolutional Networks Against Adversarial Attacks (Implementation)
     description: |
       A Keras implementation of the <i>Robust Graph Convolutional Network</i>,
