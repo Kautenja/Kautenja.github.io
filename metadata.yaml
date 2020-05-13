@@ -8,19 +8,6 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
-  - name: Audible Intruments – Edges Implementation
-    description: |
-      A software model and implementation of the Mutable Instruments module
-      <i><a href="https://mutable-instruments.net/modules/edges/">Edges</a></i>, a chiptune audio generator, for VCV Rack.
-    url: https://github.com/Kautenja/AudibleInstruments/blob/v1/src/Edges.cpp
-    img: img/edges.png
-  - name: uhue
-    description: |
-      A centralize server and web-application for interacting with
-      <i><a href="https://www2.meethue.com/en-us">Philips Hue</a></i> bridges
-      on a local area network.
-    url: https://github.com/Kautenja/uhue
-    img: img/uhue.png
   - name: Limit Order Book
     description: |
       An C++ implementation of the limit order book for following an order depth
