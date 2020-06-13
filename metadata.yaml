@@ -12,10 +12,10 @@ open_source_projects:
     description: An NES emulator with Control Votlage (CV) for VCV Rack.
     url: https://github.com/Kautenja/RackNES
     img: img/RackNES.png
-  - name: Quad Chiptune Audio Generator
-    description: An implementation of the Mutable Instruments module <i><a href="https://mutable-instruments.net/modules/edges/">Edges</a></i>, a chiptune audio generator, for VCV Rack.
-    url: https://github.com/Kautenja/QuadChiptuneAudioGenerator
-    img: img/edges.png
+  # - name: Quad Chiptune Audio Generator
+  #   description: An implementation of the Mutable Instruments module <i><a href="https://mutable-instruments.net/modules/edges/">Edges</a></i>, a chiptune audio generator, for VCV Rack.
+  #   url: https://github.com/Kautenja/QuadChiptuneAudioGenerator
+  #   img: img/edges.png
   - name: Limit Order Book
     description: |
       An C++ implementation of the limit order book for following an order depth
