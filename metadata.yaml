@@ -8,6 +8,10 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: RackNES
+    description: An NES emulator with Control Votlage (CV) for VCV Rack.
+    url: https://github.com/Kautenja/RackNES
+    img: img/RackNES.png
   - name: Quad Chiptune Audio Generator
     description: An implementation of the Mutable Instruments module <i><a href="https://mutable-instruments.net/modules/edges/">Edges</a></i>, a chiptune audio generator, for VCV Rack.
     url: https://github.com/Kautenja/QuadChiptuneAudioGenerator
