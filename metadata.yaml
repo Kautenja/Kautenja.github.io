@@ -10,7 +10,7 @@ cv: doc/cv.pdf
 open_source_projects:
   - name: RackNES
     description: |
-      An NES emulator with Control Votlage (CV) for VCV Rack with many features:
+      An NES emulator with Control Voltage (CV) for <a href="https://vcvrack.com">VCV Rack</a> with many features:
       <ul>
         <li><b>Clock Source:</b> Use NES as a clock source for downstream modules</li>
         <li><b>Clock Rate Modulation:</b> Control the clock rate of the NES with direct knob and CV</li>
