@@ -8,6 +8,16 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: Potato Chips
+    description: |
+      Emulations of retro sound chips as Eurorack modules for VCV Rack including:
+      <ul>
+        <li><b>2A03:</b> the main APU on the NES featuring two pulse waves, a quantized triangle wave, and a noise source</li>
+        <li><b>VRC6:</b> an expansion APU for the NES made by Konami featuring two pulse waves and a quantized saw wave</li>
+        <li><b>Namco106:</b> an expansion APU for the NES made by Namco featuring 8 channels of wavetable synthesis</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips
+    img: img/PotatoChips.png
   - name: RackNES
     description: |
       An NES emulator with Control Voltage (CV) for <a href="https://vcvrack.com">VCV Rack</a> with many features:
