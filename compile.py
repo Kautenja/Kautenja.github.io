@@ -1,5 +1,6 @@
 """Compile the HTML templates in this project into a complete project."""
 import yaml
+from datetime import datetime
 
 
 DEFAULTS = {
@@ -11,6 +12,7 @@ DEFAULTS = {
     'linkedin': '',
     'github': '',
     'researchgate': '',
+    'copyright': str(datetime.now().year)
 }
 
 
@@ -180,6 +182,7 @@ def write_file(basename: str, transform: 'Callable') -> None:
         html = transform(html)
         # replace the metadata in the file
         html = html.replace('$$name$$', METADATA.get('name', DEFAULTS['name']))
+        html = html.replace('$$copyright$$', METADATA.get('copyright', DEFAULTS['copyright']))
         html = html.replace('$$github$$', METADATA.get('github', DEFAULTS['github']))
         html = html.replace('$$researchgate$$', METADATA.get('researchgate', DEFAULTS['researchgate']))
         html = html.replace('$$github$$', METADATA.get('github', DEFAULTS['github']))
