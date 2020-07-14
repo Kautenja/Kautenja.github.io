@@ -8,16 +8,28 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: Potato Chips – 106
+    description: |
+      A Eurorack module for VCV Rack based on the Namco 106 featuring:
+      <ul>
+        <li><b>Wave-table synthesis:</b> 8 channels of wave-table synthesis with bit depth of 4 bits and table size of 32 samples</li>
+        <li><b>Waveform morph:</b> 5 banks of wave-tables to morph between using 32-bit floating point linear interpolation</li>
+        <li><b>Frequency control:</b> 18-bit frequency control with linear frequency modulation</li>
+        <li><b>Amplitude modulation:</b> 4-bit amplifier with linear amplitude modulation</li>
+        <li><b>Namco 106 compute limitation:</b> activating each additional channel reduces the amount of compute available for all channels. This causes all channels to drop in frequency when additional channels are activated.</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips
+    img: img/PotatoChips-Plugin2.svg
   - name: Potato Chips
     description: |
       Emulations of retro sound chips as Eurorack modules for VCV Rack including:
       <ul>
-        <li><b>2A03:</b> the main APU on the NES featuring two pulse waves, a quantized triangle wave, and a noise source</li>
+        <li><b>2A03:</b> the main APU on the NES made by Ricoh featuring two pulse waves, a quantized triangle wave, and a noise source</li>
         <li><b>VRC6:</b> an expansion APU for the NES made by Konami featuring two pulse waves and a quantized saw wave</li>
-        <li><b>Namco106:</b> an expansion APU for the NES made by Namco featuring 8 channels of wavetable synthesis</li>
+        <li><b>FME7:</b> an expansion APU for the NES made by Sunsoft featuring thre pulse waveform generators</li>
       </ul>
     url: https://github.com/Kautenja/PotatoChips
-    img: img/PotatoChips.png
+    img: img/PotatoChips-Plugin1.svg
   - name: RackNES
     description: |
       An NES emulator with Control Voltage (CV) for <a href="https://vcvrack.com">VCV Rack</a> with many features:
