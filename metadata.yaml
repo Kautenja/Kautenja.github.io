@@ -18,7 +18,7 @@ open_source_projects:
         <li><b>Amplitude modulation:</b> 4-bit amplifier with linear amplitude modulation</li>
         <li><b>Namco 106 compute limitation:</b> activating each additional channel reduces the amount of compute available for all channels. This causes all channels to drop in frequency when additional channels are activated.</li>
       </ul>
-    url: https://github.com/Kautenja/PotatoChips
+    url: https://github.com/Kautenja/PotatoChips#106
     img: img/PotatoChips/106-SocialMedia.svg
   - name: FME7
     description: |
@@ -27,7 +27,7 @@ open_source_projects:
         <li><strong>Triple pulse wave generator:</strong> Triple 12-bit pulse waves with duty cycle of <em>50%</em></li>
         <li><strong>Amplitude modulation:</strong> Manual and CV control over the individual voice levels</li>
       </ul>
-    url: https://github.com/Kautenja/PotatoChips
+    url: https://github.com/Kautenja/PotatoChips#fme7
     img: img/PotatoChips/FME7-SocialMedia.svg
   - name: VRC6
     description: |
@@ -37,7 +37,7 @@ open_source_projects:
         <li><strong>Quantized saw wave generator:</strong> Generate NES style saw wave with variable quantization including the overflow bug in the VRC6</li>
         <li><strong>Amplitude modulation:</strong> Manual and CV control over the individual voice levels</li>
       </ul>
-    url: https://github.com/Kautenja/PotatoChips
+    url: https://github.com/Kautenja/PotatoChips#vrc6
     img: img/PotatoChips/VRC6-SocialMedia.svg
   - name: 2A03
     description: |
@@ -48,7 +48,7 @@ open_source_projects:
         <li><strong>Noise generator:</strong> generate pseudo-random numbers at 16 different frequencies</li>
         <li><strong>Linear Feedback Shift Register (LFSR):</strong> old-school 8-bit randomness!</li>
       </ul>
-    url: https://github.com/Kautenja/PotatoChips
+    url: https://github.com/Kautenja/PotatoChips#2a03
     img: img/PotatoChips/2A03-SocialMedia.svg
   - name: RackNES
     description: |
