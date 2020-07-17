@@ -8,7 +8,7 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
-  - name: Potato Chips – 106
+  - name: 106
     description: |
       A Eurorack module for VCV Rack based on the Namco 106 featuring:
       <ul>
@@ -19,17 +19,37 @@ open_source_projects:
         <li><b>Namco 106 compute limitation:</b> activating each additional channel reduces the amount of compute available for all channels. This causes all channels to drop in frequency when additional channels are activated.</li>
       </ul>
     url: https://github.com/Kautenja/PotatoChips
-    img: img/PotatoChips-Plugin2.svg
-  - name: Potato Chips
+    img: img/PotatoChips/106-SocialMedia.svg
+  - name: FME7
     description: |
-      Emulations of retro sound chips as Eurorack modules for VCV Rack including:
+      FME7 is an emulation of the Sunsoft FME7 audio processing unit from the Nintendo Entertainment System (NES) for VCV Rack. The FME7 chip contains three pulse wave generators, a noise generator, and an envelope generator. Only the pulse wave generators are implemented currently.
       <ul>
-        <li><b>2A03:</b> the main APU on the NES made by Ricoh featuring two pulse waves, a quantized triangle wave, and a noise source</li>
-        <li><b>VRC6:</b> an expansion APU for the NES made by Konami featuring two pulse waves and a quantized saw wave</li>
-        <li><b>FME7:</b> an expansion APU for the NES made by Sunsoft featuring three pulse waveform generators</li>
+        <li><strong>Triple pulse wave generator:</strong> Triple 12-bit pulse waves with duty cycle of <em>50%</em></li>
+        <li><strong>Amplitude modulation:</strong> Manual and CV control over the individual voice levels</li>
       </ul>
     url: https://github.com/Kautenja/PotatoChips
-    img: img/PotatoChips-Plugin1.svg
+    img: img/PotatoChips/FME7-SocialMedia.svg
+  - name: VRC6
+    description: |
+      VRC6 is an emulation of the Konami VRC6 audio processing unit from the Nintendo Entertainment System (NES) for VCV Rack. The VRC6 chip contains two pulse wave generators, and a quantized saw wave generator.
+      <ul>
+        <li><strong>Dual pulse wave generator:</strong> Dual 8-bit pulse waves with eight duty cycles: <em>6.25%</em>, <em>12.5%</em>, <em>18.75%</em>, <em>25%</em>, <em>31.25%</em>, <em>37.5%</em>, <em>43.75%</em>, and <em>50%</em></li>
+        <li><strong>Quantized saw wave generator:</strong> Generate NES style saw wave with variable quantization including the overflow bug in the VRC6</li>
+        <li><strong>Amplitude modulation:</strong> Manual and CV control over the individual voice levels</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips
+    img: img/PotatoChips/VRC6-SocialMedia.svg
+  - name: 2A03
+    description: |
+      2A03 is an emulation of the Ricoh 2A03 audio processing unit from the Nintendo Entertainment System (NES) for VCV Rack. The 2A03 chip contains two pulse wave generators, a quantized triangle wave generator, and a noise generator. The original chip featured a DMC loader for playing samples that has been omitted in this emulation.
+      <ul>
+        <li><strong>Dual pulse wave generator:</strong> Dual 8-bit pulse waves with four duty cycles: <em>12.5%</em>, <em>25%</em>, <em>50%</em>, and <em>75%</em></li>
+        <li><strong>Quantized triangle wave generator:</strong> Generate NES style triangle wave with 16 steps of quantization</li>
+        <li><strong>Noise generator:</strong> generate pseudo-random numbers at 16 different frequencies</li>
+        <li><strong>Linear Feedback Shift Register (LFSR):</strong> old-school 8-bit randomness!</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips
+    img: img/PotatoChips/2A03-SocialMedia.svg
   - name: RackNES
     description: |
       An NES emulator with Control Voltage (CV) for <a href="https://vcvrack.com">VCV Rack</a> with many features:
