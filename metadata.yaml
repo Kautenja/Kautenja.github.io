@@ -8,6 +8,16 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: SN76489
+    description: |
+      A Eurorack module for VCV Rack based on the Texas Instruments SN76489 featuring:
+      <ul>
+        <li><strong>Triple pulse wave generator:</strong> Triple 8-bit pulse waves with <em>50%</em> duty cycle and 10-bit frequency parameter</li>
+        <li><strong>Noise generator:</strong> Generate either white-noise or periodic noise at one of four shift rates: <em>N/512</em>, <em>N/1024</em>, <em>N/2048</em>, or the output of tone generator 3</li>
+        <li><strong>4-bit Level Control:</strong> 4-bit level control over each channel with mixer sliders and CV inputs</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips#SN76489
+    img: img/PotatoChips/SN76489-SocialMedia.svg
   - name: 106
     description: |
       A Eurorack module for VCV Rack based on the Namco 106 featuring:
