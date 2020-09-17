@@ -8,6 +8,18 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: '2612'
+    description: |
+      2612 is an emulation of the Yamaha YM2612 audio processing unit. The YM2612 is a 4-operator FM synthesis chip with 6 voices of polyphony.
+      <ul>
+        <li><strong>16-bit:</strong> 8 bits better than the previous generation of chips!</li>
+        <li><strong>6 Voice Polyphony:</strong> 6 voices of polyphony with independent V/OCT and Gate inputs</li>
+        <li><strong>4-Operator FM Synthesis:</strong> Full control over the FM-synthesis parameters for each of the four operators including: envelopes, multiplier rate scale, tuning, and amplitude modulation</li>
+        <li><strong>8 FM Algorithms:</strong> 8 different arrangements of the four operators</li>
+        <li><strong>Stereo Outputs:</strong> Output from the left and right channels on the chip</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips#2612
+    img: img/PotatoChips/2612-GitHub.svg
   - name: GBS
     description: |
       GBS is an emulation of the Nintendo GameBoy Sound System (GBS) audio processing unit. The GBS is similar to the Ricoh 2A03, but replaces the triangle waveform generator with a wave-table synthesizer.
