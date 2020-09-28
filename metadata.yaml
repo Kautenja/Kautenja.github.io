@@ -8,6 +8,11 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: S-SMP(Echo)
+    description: |
+      S-SMP(Echo) is an emulation of the echo effect from the SNES.
+    url: https://github.com/Kautenja/PotatoChips#S-SMP-Echo
+    img: img/PotatoChips/S-SMP-Echo-GitHub.svg
   - name: '2612'
     description: |
       2612 is an emulation of the Yamaha YM2612 audio processing unit. The YM2612 is a 4-operator FM synthesis chip with 6 voices of polyphony.
