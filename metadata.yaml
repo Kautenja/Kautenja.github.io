@@ -8,11 +8,38 @@ linkedin: kautenja
 researchgate: Christian_Kauten
 cv: doc/cv.pdf
 open_source_projects:
+  - name: S-SMP(ADSR)
+    description: |
+      S-SMP(ADSR) is an emulation of the ADSR envelope generator from the SNES.
+      <ul>
+        <li><strong>Stereo Processing:</strong> Two envelope generators on one module for stereo modulation, cross modulation, or both!</li>
+        <li><strong>Total Level Control:</strong> Control over the overall level of the envelope generator, including inversion for ducking effects.</li>
+        <li><strong>Stage Length Control:</strong> Control over stage timings using sliders and control voltages.</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips#S-SMP-ADSR
+    img: img/PotatoChips/S-SMP-ADSR-GitHub.svg
   - name: S-SMP(Echo)
     description: |
       S-SMP(Echo) is an emulation of the echo effect from the SNES.
+      <ul>
+        <li><strong>Stereo Processing:</strong> Echo buffer for two independent inputs in stereo configuration. The parameters are the same for both inputs, but the inputs have their own dedicated echo buffers.</li>
+        <li><strong>Expanded Delay:</strong> The 15 levels of delay has been upgraded to 31 levels that each add an additional <em>16ms</em> of delay (up to roughly <em>500ms</em>). 31 levels of delay is able to fit in the RAM of the original S-SMP, but the instruction set does not normally support the addressing of 31 levels.</li>
+        <li><strong>Feedback:</strong> Additive and subtractive feedback following the original implementation</li>
+        <li><strong>Surround Effect:</strong> Stereo mixer with the ability to invert the phase of either channel resulting in odd Haas effects.</li>
+        <li><strong>8-tap FIR Filter:</strong> Fully parameterized 8-tap FIR filter for shaping the sound of the echo. The filter can be parameterized as low-pass, high-pass, band-pass, band-stop, etc. and includes presets with filter parameters from popular SNES games.</li>
+      </ul>
     url: https://github.com/Kautenja/PotatoChips#S-SMP-Echo
     img: img/PotatoChips/S-SMP-Echo-GitHub.svg
+  - name: S-SMP(Gauss)
+    description: |
+      S-SMP(Gauss) is an emulation of the BRR filter and Gauss Interpolation filter from the SNES.
+      <ul>
+        <li><strong>Stereo Processing:</strong> Dual processing channels for stereo effects or other create multi-tracking applications.</li>
+        <li><strong>4 BRR Filter Modes:</strong> 4 filter modes from the BRR sample playback engine that act as low-pass filters.</li>
+        <li><strong>Gaussian Interpolation Filter:</strong> A filter that removes high-frequency content and adds subtle distortion. This filter provides the muffling character that fans of SNES audio will find familiar.</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips#S-SMP-Gauss
+    img: img/PotatoChips/S-SMP-Gauss-GitHub.svg
   - name: '2612'
     description: |
       2612 is an emulation of the Yamaha YM2612 audio processing unit. The YM2612 is a 4-operator FM synthesis chip with 6 voices of polyphony.
