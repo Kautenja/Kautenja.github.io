@@ -271,7 +271,7 @@ publications:
     description: |
       Fake news is playing an increasingly dominant role in spreading misinformation by influencing people’s perceptions or knowledge to distort their awareness and decision-making. The growth of social media and online forums has spurred the spread of fake news causing it to easily blend with truthful information. This study provides a novel text analytics–driven approach to fake news detection for reducing the risks posed by fake news consumption. We first describe the framework for the proposed approach and the underlying analytical model including the implementation details and validation based on a corpus of news data. We collect legitimate and fake news, which is transformed from a document based corpus into a topic and event–based representation. Fake news detection is performed using a two-layered approach, which is comprised of detecting fake topics and fake events. The efficacy of the proposed approach is demonstrated through the implementation and validation of a novel FakE News Detection (FEND) system. The proposed approach achieves 92.49% classification accuracy and 94.16% recall based on the specified threshold value of 0.6.
     bib: doc/fend.bib
-    pdf: https://www.sciencedirect.com/science/article/abs/pii/S0377221719304977
+    pdf: doc/fend.pdf
   - title: A Perception Augmentation System for Autonomous Vehicles
     authors: Christian Kauten, Ashish Gupta, Xiao Qin, Han Li, David Bevly and Alison Jenkins
     year: 2018
