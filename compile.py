@@ -6,12 +6,13 @@ from datetime import datetime
 DEFAULTS = {
     'cv': '#',
     'tagline': 'Tagline',
+    'biography': 'Biography',
     'avatar': 'http://placehold.it/700x300',
     'name': 'Name',
     'email': 'Email',
     'linkedin': '',
     'github': '',
-    'researchgate': '',
+    'googleScholar': '',
     'copyright': str(datetime.now().year)
 }
 
@@ -184,13 +185,13 @@ def write_file(basename: str, transform: 'Callable') -> None:
         html = html.replace('$$name$$', METADATA.get('name', DEFAULTS['name']))
         html = html.replace('$$copyright$$', METADATA.get('copyright', DEFAULTS['copyright']))
         html = html.replace('$$github$$', METADATA.get('github', DEFAULTS['github']))
-        html = html.replace('$$researchgate$$', METADATA.get('researchgate', DEFAULTS['researchgate']))
-        html = html.replace('$$github$$', METADATA.get('github', DEFAULTS['github']))
+        html = html.replace('$$googleScholar$$', METADATA.get('googleScholar', DEFAULTS['googleScholar']))
         html = html.replace('$$avatar$$', METADATA.get('avatar', DEFAULTS['avatar']))
         html = html.replace('$$email$$', METADATA.get('email', DEFAULTS['email']))
         html = html.replace('$$linkedin$$', METADATA.get('linkedin', DEFAULTS['linkedin']))
         html = html.replace('$$cv$$', METADATA.get('cv', DEFAULTS['cv']))
         html = html.replace('$$tagline$$', METADATA.get('tagline', DEFAULTS['tagline']))
+        html = html.replace('$$biography$$', METADATA.get('biography', DEFAULTS['biography']))
         # write the output file
         with open('{}.html'.format(basename), 'w') as output_file:
             output_file.write(html)
