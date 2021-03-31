@@ -9,9 +9,9 @@ googleScholar: VKojN3oAAAAJ&hl=en
 cv: doc/CurriculumVitae.pdf
 biography: I am a software engineering and machine learning expert with a extensive training across a broad range of technologies. I've worked on everything from iOS applications to machine learning systems that play video games. My current focus areas are signal processing, image processing, and applied deep learning for computer vision.
 open_source_projects:
-  - name: S-SMP(ADSR)
+  - name: Super ADSR
     description: |
-      S-SMP(ADSR) is an emulation of the ADSR envelope generator from the SNES.
+      Super ADSR is an emulation of the ADSR envelope generator from the SNES.
       <ul>
         <li><strong>Stereo Processing:</strong> Two envelope generators on one module for stereo modulation, cross modulation, or both!</li>
         <li><strong>Total Level Control:</strong> Control over the overall level of the envelope generator, including inversion for ducking effects.</li>
@@ -19,9 +19,9 @@ open_source_projects:
       </ul>
     url: https://github.com/Kautenja/PotatoChips#S-SMP-ADSR
     img: img/PotatoChips/S-SMP-ADSR-GitHub.svg
-  - name: S-SMP(Echo)
+  - name: Super Echo
     description: |
-      S-SMP(Echo) is an emulation of the echo effect from the SNES.
+      Super Echo is an emulation of the echo effect from the SNES.
       <ul>
         <li><strong>Stereo Processing:</strong> Echo buffer for two independent inputs in stereo configuration. The parameters are the same for both inputs, but the inputs have their own dedicated echo buffers.</li>
         <li><strong>Expanded Delay:</strong> The 15 levels of delay has been upgraded to 31 levels that each add an additional <em>16ms</em> of delay (up to roughly <em>500ms</em>). 31 levels of delay is able to fit in the RAM of the original S-SMP, but the instruction set does not normally support the addressing of 31 levels.</li>
@@ -31,9 +31,9 @@ open_source_projects:
       </ul>
     url: https://github.com/Kautenja/PotatoChips#S-SMP-Echo
     img: img/PotatoChips/S-SMP-Echo-GitHub.svg
-  - name: S-SMP(Gauss)
+  - name: Super VCA
     description: |
-      S-SMP(Gauss) is an emulation of the BRR filter and Gauss Interpolation filter from the SNES.
+      Super VCA is an emulation of the BRR filter and Gauss Interpolation filter from the SNES.
       <ul>
         <li><strong>Stereo Processing:</strong> Dual processing channels for stereo effects or other create multi-tracking applications.</li>
         <li><strong>4 BRR Filter Modes:</strong> 4 filter modes from the BRR sample playback engine that act as low-pass filters.</li>
