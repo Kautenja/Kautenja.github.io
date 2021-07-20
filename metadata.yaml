@@ -19,7 +19,7 @@ open_source_projects:
         <li><strong>Stage Length Control:</strong> Control over stage timings using sliders and control voltages.</li>
       </ul>
     url: https://github.com/Kautenja/PotatoChips#S-SMP-ADSR
-    img: img/PotatoChips/S-SMP-ADSR-GitHub.svg
+    img: img/PotatoChips/SuperADSR.svg
   - name: Super Echo
     description: |
       Super Echo is an emulation of the echo effect from the SNES.
@@ -31,7 +31,7 @@ open_source_projects:
         <li><strong>8-tap FIR Filter:</strong> Fully parameterized 8-tap FIR filter for shaping the sound of the echo. The filter can be parameterized as low-pass, high-pass, band-pass, band-stop, etc. and includes presets with filter parameters from popular SNES games.</li>
       </ul>
     url: https://github.com/Kautenja/PotatoChips#S-SMP-Echo
-    img: img/PotatoChips/S-SMP-Echo-GitHub.svg
+    img: img/PotatoChips/SuperEcho.svg
   - name: Super VCA
     description: |
       Super VCA is an emulation of the BRR filter and Gauss Interpolation filter from the SNES.
@@ -41,7 +41,19 @@ open_source_projects:
         <li><strong>Gaussian Interpolation Filter:</strong> A filter that removes high-frequency content and adds subtle distortion. This filter provides the muffling character that fans of SNES audio will find familiar.</li>
       </ul>
     url: https://github.com/Kautenja/PotatoChips#S-SMP-Gauss
-    img: img/PotatoChips/S-SMP-Gauss-GitHub.svg
+    img: img/PotatoChips/SuperVCA.svg
+  - name: Mini Boss
+    description: |
+      Mini Boss is an emulation and re-envisioning of the Yamaha YM2612 audio processing unit from the Sega Mega Drive and Sega Genesis. Mini Boss provides the key functionality of \textit{a single operator} from the Yamaha YM2612, in addition to some hacks, omissions, and re-envisioned features, namely,
+      <ul>
+        <li><strong>16-bit Audio:</strong> It's 8 bits better than the previous generation of chips! This is marketing! We're actually lying though -- the YM2612 produced a \textit{14-bit} stream, and so does BossFight. You're not getting those 2 bits back; go cry about it.</li>
+        <li><strong>Single Operator FM Synthesis:</strong> Full control over the parameters including envelopes, multipliers, rate scalings, tunings, gates, and internal LFO modulation.</li>
+        <li><strong>Feedback:</strong> Feedback into the operator one for interesting timbres or total wave destruction and noise.</li>
+        <li><strong>Looping Envelopes:</strong> Transform the one-shot envelope generator into a looping AD envelope.</li>
+        <li><strong>Low-Frequency Oscillator:</strong> A shared low-frequency sine oscillator controls amplitude modulation and frequency modulation of each operator.</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips
+    img: img/PotatoChips/MiniBoss.svg
   - name: Boss Fight
     description: |
       Boss Fight is an emulation of the Yamaha YM2612 audio processing unit. The YM2612 is a 4-operator FM synthesis chip with 6 voices of polyphony.
