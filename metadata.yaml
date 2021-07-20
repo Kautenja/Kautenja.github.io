@@ -303,12 +303,26 @@ open_source_projects:
     url: https://github.com/Kautenja/a-neural-algorithm-of-artistic-style
     img: img/anaoas.jpg
 publications:
+  - title: Applications of Computer Vision for the Improvement of Autonomous Vehicle Design
+    authors: Christian Kauten
+    year: 2021
+    venue: Auburn University (Dissertation)
+    description: |
+      <p>
+      This dissertation approaches methods of improving autonomous vehicle design through two separate lenses. In the first study, we investigate how technological transparency can improve driver trust in artificial intelligence and ultimately encourage the adoption of automated driving systems. Automated driving systems provide a means of reducing the inherent danger of operating a personal motor vehicle. However, barriers to adoption exist due to low trust in the artificial intelligence that powers the systems. To fill this deficit of trust, Chapter 3 proposes a deep learning-based visual alert system that allows passengers to monitor the artificial intelligence performance in real-time. Using a trained object detection model, we design a novel perception augmentation system for conveying information about the driving scene to the passenger through the lens of artificial intelligence. We conduct an empirical study that confirms that the proposed system improves the trust in the underlying artificial intelligence technology. Trust in artificial intelligence is also found to not only positively affect the perceived benefit from-- and intention to use an automated driving system, but also negatively influence the perceived risk associated with using the technology. Perceived enjoyment from the autonomous vehicle is also found to have a strong effect on the perceived benefit from-- and intention to use the system.
+      </p><p>
+      In the second study in this dissertation, we take a close look at methods to improve the quality of sensor data in automated driving systems. Although deep learning methods continue to set new state-of-the-art metrics on deblurring benchmarks, a comprehensive understanding of what losses are effective for the deblurring task is missing from the literature. The study in Chapter 4 provides an empirical foundation for the selection of a loss function when developing image deblurring models. Despite the popularity of mean squared error as a content loss function for image restoration tasks, we demonstrate that mean absolute error produces higher quality results to the human visual system. Furthermore, we show that deblurring models trained solely using a perceptual content loss produce outputs that are perceptibly better than the same model trained using a plain mean absolute error or mean squared error loss despite validation metrics that would indicate otherwise. Finally, we demonstrate that adversarial losses do not produce generators capable of confidently deblurring images in the absence of auxiliary loss functions; however, the combination of adversarial and content losses in some cases produces higher quality results than either constituent loss when trained in isolation. Compared to state-of-the-art methods, the best model developed in this work produces worse quantitative validation metrics, but visibly better results on real-world blurs in natural images.
+      </p>
+    bib: doc/applications-of-computer-vision-for-avs.bib
+    pdf: doc/applications-of-computer-vision-for-avs.pdf
   - title: Predicting Blood Donors Using Machine Learning Techniques
     authors: Christian Kauten, Ashish Gupta, Xiao Qin, Glenn Richey
     year: 2021
     venue: Information Systems Frontiers
     description: |
+      <p>
       The United States’ blood supply chain is experiencing market decline due to recent innovations in surgical practice, transfusion management, and hospital policy. These innovations strain US blood centers, resulting in cuts to surge capacities, consolidation, and reduced funding for research and outreach programs. In this study, we use data from a regional blood center to explore the application of contemporary machine learning algorithms for modeling donor retention. Such predictive models of donor retention can be used to design more cost effective donor outreach programs. Using data from a large US blood center paired with random forest classifiers, we are able to build a model of donor retention with a Mathews correlation of coefficient of 0.851.
+      </p>
     bib: doc/predicting-blood-donors.bib
     pdf: doc/predicting-blood-donors.pdf
   - title: Detecting Fake News for Reducing Misinformation Risks Using Analytics Approaches
@@ -316,7 +330,9 @@ publications:
     year: 2019
     venue: European Journal of Operational Research
     description: |
+      <p>
       Fake news is playing an increasingly dominant role in spreading misinformation by influencing people’s perceptions or knowledge to distort their awareness and decision-making. The growth of social media and online forums has spurred the spread of fake news causing it to easily blend with truthful information. This study provides a novel text analytics–driven approach to fake news detection for reducing the risks posed by fake news consumption. We first describe the framework for the proposed approach and the underlying analytical model including the implementation details and validation based on a corpus of news data. We collect legitimate and fake news, which is transformed from a document based corpus into a topic and event–based representation. Fake news detection is performed using a two-layered approach, which is comprised of detecting fake topics and fake events. The efficacy of the proposed approach is demonstrated through the implementation and validation of a novel FakE News Detection (FEND) system. The proposed approach achieves 92.49% classification accuracy and 94.16% recall based on the specified threshold value of 0.6.
+      </p>
     bib: doc/fend.bib
     pdf: doc/fend.pdf
   - title: A Perception Augmentation System for Autonomous Vehicles
@@ -324,7 +340,9 @@ publications:
     year: 2018
     venue: Pre-ICIS SIGDSA Symposium
     description: |
+      <p>
       We describe a system prototype for perception augmentation in autonomous vehicles. The system is built using a fully convolutional deep encoder-decoder architecture to map pixels with depth measures to semantic class labels. Class labels recombine with depth measures to produce a 3-dimensional semantic map of the objects in front of the vehicle. The map, simplified to highlight areas of importance (e.g., other vehicles, pedestrians), is shown to the passenger using a novel user interface. The map is also analyzed for potential risks to queue alerts to the passenger. Alerts are both: (1) shown to the passenger using an addressable LED strip around the windshield, and (2) delivered to the passenger through a speaker.
+      </p>
     bib: doc/pa-av-prototype.bib
     pdf: doc/pa-av-prototype.pdf
   - title: "REDUX: Managing Renewable Energy in Data Centers using Distributed UPS Systems"
@@ -332,6 +350,8 @@ publications:
     year: 2018
     venue: IEEE International Conference on Smart Cloud
     description: |
+      <p>
       To environmental friendly and energy-efficient data centers, it is prudent to leverage on-site renewable sources like solar and wind. Distributed UPS systems are deployed in data centers to handle the intermittency feature of renewable energy. We propose a renewable-energy manager called REDUX, which offers a smart way of managing server energy consumption powered by a distributed UPS system and renewable energy. REDUX maintains a desirable balance between renewable-energy utilization and data center performance. REDUX makes judicious use of UPS devices to allocate energy resources when renewable energy generation is low or fluctuating condition. REDUX not only guarantees the stable operation of daily workload but also reduces the energy cost of data centers by improving power resource utilization. Compared with existing strategies, REDUX demonstrates a prominent capability of mitigating average peak workload and boosting renewable-energy utilization.
+      </p>
     bib: doc/redux.bib
     pdf: doc/redux.pdf
