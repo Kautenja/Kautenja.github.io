@@ -10,16 +10,31 @@ cv: doc/CurriculumVitae.pdf
 biography: |
   I am a software engineering and machine learning expert with extensive training across a broad range of technologies. I've worked on everything from iOS applications to machine learning systems that play video games. My current focus areas are signal processing, image processing, and applied deep learning for computer vision.
 open_source_projects:
-  - name: Super ADSR
+  - name: Accumulation Station (work in progress)
     description: |
-      Super ADSR is an emulation of the ADSR envelope generator from the SNES.
-      <ul>
-        <li><strong>Stereo Processing:</strong> Two envelope generators on one module for stereo modulation, cross modulation, or both!</li>
-        <li><strong>Total Level Control:</strong> Control over the overall level of the envelope generator, including inversion for ducking effects.</li>
-        <li><strong>Stage Length Control:</strong> Control over stage timings using sliders and control voltages.</li>
-      </ul>
-    url: https://github.com/Kautenja/PotatoChips#S-SMP-ADSR
-    img: img/PotatoChips/SuperADSR.svg
+      4-channel stereo field mixer.
+    url: https://github.com/Kautenja/KautenjaDSP
+    img: img/KautenjaDSP/AccumulationStation.svg
+  - name: Wave Boii (work in progress)
+    description: |
+      Intuitive stereo sample playback engine.
+    url: https://github.com/Kautenja/KautenjaDSP
+    img: img/KautenjaDSP/WaveBoii.svg
+  - name: Quad Operator (work in progress)
+    description: |
+      4 operator cross phase-modulation synthesizer.
+    url: https://github.com/Kautenja/KautenjaDSP
+    img: img/KautenjaDSP/QuadOperator.svg
+  - name: Big Squish (work in progress)
+    description: |
+      Responsive digital compressor and clipping stage.
+    url: https://github.com/Kautenja/KautenjaDSP
+    img: img/KautenjaDSP/BigSquish.svg
+  - name: Nurse Ratchet (work in progress)
+    description: |
+      8-step micro-rhythmic ratcheting sequencer.
+    url: https://github.com/Kautenja/KautenjaDSP
+    img: img/KautenjaDSP/NurseRatchet.svg
   - name: Super Echo
     description: |
       Super Echo is an emulation of the echo effect from the SNES.
@@ -30,7 +45,7 @@ open_source_projects:
         <li><strong>Surround Effect:</strong> Stereo mixer with the ability to invert the phase of either channel resulting in odd Haas effects.</li>
         <li><strong>8-tap FIR Filter:</strong> Fully parameterized 8-tap FIR filter for shaping the sound of the echo. The filter can be parameterized as low-pass, high-pass, band-pass, band-stop, etc. and includes presets with filter parameters from popular SNES games.</li>
       </ul>
-    url: https://github.com/Kautenja/PotatoChips#S-SMP-Echo
+    url: https://github.com/Kautenja/PotatoChips
     img: img/PotatoChips/SuperEcho.svg
   - name: Super VCA
     description: |
@@ -40,8 +55,18 @@ open_source_projects:
         <li><strong>4 BRR Filter Modes:</strong> 4 filter modes from the BRR sample playback engine that act as low-pass filters.</li>
         <li><strong>Gaussian Interpolation Filter:</strong> A filter that removes high-frequency content and adds subtle distortion. This filter provides the muffling character that fans of SNES audio will find familiar.</li>
       </ul>
-    url: https://github.com/Kautenja/PotatoChips#S-SMP-Gauss
+    url: https://github.com/Kautenja/PotatoChips
     img: img/PotatoChips/SuperVCA.svg
+  - name: Super ADSR
+    description: |
+      Super ADSR is an emulation of the ADSR envelope generator from the SNES.
+      <ul>
+        <li><strong>Stereo Processing:</strong> Two envelope generators on one module for stereo modulation, cross modulation, or both!</li>
+        <li><strong>Total Level Control:</strong> Control over the overall level of the envelope generator, including inversion for ducking effects.</li>
+        <li><strong>Stage Length Control:</strong> Control over stage timings using sliders and control voltages.</li>
+      </ul>
+    url: https://github.com/Kautenja/PotatoChips
+    img: img/PotatoChips/SuperADSR.svg
   - name: Mini Boss
     description: |
       Mini Boss is an emulation and re-envisioning of the Yamaha YM2612 audio processing unit from the Sega Mega Drive and Sega Genesis. Mini Boss provides the key functionality of \textit{a single operator} from the Yamaha YM2612, in addition to some hacks, omissions, and re-envisioned features, namely,
