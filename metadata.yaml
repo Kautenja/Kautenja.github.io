@@ -303,21 +303,14 @@ open_source_projects:
     url: https://github.com/Kautenja/a-neural-algorithm-of-artistic-style
     img: img/anaoas.jpg
 publications:
-  # - title: Predicting Blood Donors Using Machine Learning Techniques
-  #   authors: Christian Kauten, Ashish Gupta, Xiao Qin, Glenn Richey
-  #   year: 2021
-  #   venue: Information Systems Frontiers
-  #   description: |
-  #     The United States' blood supply chain is experiencing market decline due to recent innovations in surgical practice, transfusion management, and hospital policy. These innovations strain US blood centers, resulting in cuts to surge capacities, consolidation, and reduced funding for research and outreach programs. In this study, we use data from a regional blood center to explore the application of contemporary machine learning algorithms for modeling donor retention. Such predictive models of donor retention can be used to design more cost effective donor outreach programs. Using data from a large US blood center paired with random forest classifiers, we are able to build a model of donor retention with a Mathews correlation of coefficient of 0.851.
-  #   bib: doc/predicting-blood-donors.bib
-  #   pdf: doc/predicting-blood-donors.pdf
-  # - title: Understanding Time and related threats in the Financial Service Sector
-  #   authors: Jonathon Lee and Christian Kauten and Ashish Gupta and Andrew Bach
-  #   year: 2020
-  #   venue: U.S. Department of The Treasury
-  #   description: ''
-  #   bib: doc/time-and-related-threats-in-fss.bib
-  #   pdf: doc/time-and-related-threats-in-fss.pdf
+  - title: Predicting Blood Donors Using Machine Learning Techniques
+    authors: Christian Kauten, Ashish Gupta, Xiao Qin, Glenn Richey
+    year: 2021
+    venue: Information Systems Frontiers
+    description: |
+      The United States’ blood supply chain is experiencing market decline due to recent innovations in surgical practice, transfusion management, and hospital policy. These innovations strain US blood centers, resulting in cuts to surge capacities, consolidation, and reduced funding for research and outreach programs. In this study, we use data from a regional blood center to explore the application of contemporary machine learning algorithms for modeling donor retention. Such predictive models of donor retention can be used to design more cost effective donor outreach programs. Using data from a large US blood center paired with random forest classifiers, we are able to build a model of donor retention with a Mathews correlation of coefficient of 0.851.
+    bib: doc/predicting-blood-donors.bib
+    pdf: doc/predicting-blood-donors.pdf
   - title: Detecting Fake News for Reducing Misinformation Risks Using Analytics Approaches
     authors: Chaowei Zhang, Ashish Gupta, Christian Kauten, Amit V. Deokar, Xiao Qin
     year: 2019
